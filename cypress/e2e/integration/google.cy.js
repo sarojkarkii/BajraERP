@@ -5,7 +5,7 @@ describe('Bajra ERP Test Suite', () => {
     it('Bajra LoginPage Test', () => {
       cy.visit('https://www.google.com')
       cy.get('[class="gLFyf gsfi"]').type('Anime')
-      cy.xpath('/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[1]/div').click()
+      cy.get('body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.FPdoLc.lJ9FBc > center > input.gNO89b').click()
 
     })
   
