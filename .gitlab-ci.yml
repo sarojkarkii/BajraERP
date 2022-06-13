@@ -1,7 +1,8 @@
-stages:         
+stages:
   - test
 
 test-code:
-  stage: test    
+  stage: test
   script:
+    - npm install
     - npm run runHeadless
