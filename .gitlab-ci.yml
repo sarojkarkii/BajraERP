@@ -1,5 +1,8 @@
-demo_job_1: tags
-    tags: 
-    - ci
+stages:
+  - test
+
+test-code:
+  stage: test
   script:
-    - echo Hello World
+    - npm install
+    - npm run runHeadless
