@@ -1,8 +1,7 @@
-
 stages:         
   - test
 
- test:
+test-code-job:
   stage: test    
   script:
     - npm install
