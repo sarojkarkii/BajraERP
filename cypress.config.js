@@ -1,4 +1,5 @@
 const { defineConfig } = require("cypress");
+const tagify = require('cypress-tags')
 module.exports = defineConfig({
   projectId: 'fx8u8f',
 
@@ -13,6 +14,8 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
+      
+      on('file:preprocessor', tagify(config))
     },
     baseUrl:"https://bajratechnologies.com/web/login"
   },
