@@ -1,5 +1,5 @@
 
-
+/*
 describe(['my-feature'],'Bajra ERP Test Suite', () => {
    
     it(['wip'],'Anime search in google', () => {
@@ -17,4 +17,4 @@ describe(['my-feature'],'Bajra ERP Test Suite', () => {
     })
   
     })
-  
+  */
